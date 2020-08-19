@@ -75,7 +75,19 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-
+            <div id="cart">
+                <div class="card" style="width: 18rem;">
+  <img src="https://toyota.com.ua/uploads/camryrrr.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CAMRY</h5>
+    <p class="card-text">Цена от 788 304 грн.</p>
+  </div>
+  <div class="card-body">
+    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
+    <a href="https://toyota.com.ua/ru/camry" class="card-link">Посмоотреть</a>
+  </div>
+</div>
+            </div>
         </div>
 
         <div id="logo_botom"></div>
