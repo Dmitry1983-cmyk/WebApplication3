@@ -9,8 +9,9 @@ div#img{
     width:200px;
     height:50px;
     display:inline;
-    float:left;
+    float:left; 
 }
+
 div#gps {
     margin-top: 20px;
     margin-left: 30px;
@@ -29,7 +30,7 @@ div#adress {
 }
 
 div#contact {
-    margin-left: 20%;
+    margin-left: 45%;
     width: 50%;
     height: 40px;
     position:fixed;
@@ -101,12 +102,20 @@ div#ordercall {
     display: inline;
     float: left;
 }
+    div#contact{
+        display:flex;
+    }
+    div#contact > div:nth-child(7){
+        margin-left:auto;
+    }
 
-div#topmenu{
-    width:100%;
-    height:50px;
-    background-color:rgb(207, 206, 206);
-}
+
+    div#topmenu {
+        width: 100%;
+        height: 50px;
+        background-color: rgb(207, 206, 206);
+    }
+
 
 div#slide {
     width: 100%;
@@ -121,8 +130,91 @@ div#logo_botom {
 }
 
 div#txtToyota{
-    width:20%;
-    position:fixed;
+    width:400px;
     margin-left:40%;
     text-align:center;
+}
+
+div#cart {
+    width: 60%;
+    margin-left:19%;
+}
+div.card{
+    display:inline-block;
+    /*float:left;*/
+    margin-left:5%;
+    margin-top:3%;
+}
+
+.card :hover {
+    /*border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    filter: drop-shadow(0 2px 3px rgb(186, 180, 180));*/
+}
+div#logoToyota{
+    margin-left:30%;
+    width:39px;
+    height:26px;
+}
+div#txtService{
+    margin-left:4%;
+    text-align:center;
+}
+
+
+.services-list {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(100%/12 * 6 - 30px);
+    padding-right: 0%;
+    background-color: #fff;
+    background-image: url(../img/bg-services-toyota.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+    -webkit-box-shadow: 10px 10px 40px rgba(77, 79, 83, 0.3);
+    box-shadow: 10px 10px 40px rgba(77, 79, 83, 0.3);
+}
+
+.services-list-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.services-list__item {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 50px 0;
+    padding-left: 80px;
+    cursor: pointer;
+}
+.services-list__icon {
+    vertical-align: middle;
+    opacity: .4;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.services-list__name {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 24px;
+    color: inherit;
+    text-decoration: none;
 }
