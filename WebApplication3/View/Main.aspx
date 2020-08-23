@@ -39,138 +39,13 @@
                     <a href="https://toyota.com.ua/ru/">Заказать звонок</a>
                 </div>
             </div>
-
-
-<%--    <!------------------------------------------------------------------------------------>
-
-    <nav>
-      <ul class="nav">
-         <div class="nav__header">
-             <div class="lang">
-                <a class="lang__item " href="https://toyota.com.ua/">UA</a>
-<a class="lang__item  active" href="https://toyota.com.ua/ru/">RU</a>
-             </div>
-            <!--  <div class="lang"><a class="lang__item" href="#">UA</a></div> -->
-            <div class="header-search">
-               <div class="header-search__input-wrapper">
-                  <form class="sisea-search-form" action="https://toyota.com.ua/rezultatyi-poshuku" method="get"> 
-   
-    <input class="header-search__input" type="text" name="search" id="search" value="" />
-    <input type="hidden" name="id" value="107" /> 
-    <!--input type="submit" value="Поиск" /-->
-
-</form>
-
-               </div>
-            </div>
-            <a class="nav__mobphone" href="tel:0445375454"><img src="/assets/img/i-header-phone.svg" alt="phone"></a>
-            
-            <div class="menu-close js-menu-close"><img src="/assets/img/i-mobmenu-close.svg" alt=""></div>
-         </div>
-         
-         
-         
-         <li class="nav__item">
-            <a class="nav__item__link nav__item__link--has-child" href="modelnyij-ryad/">
-            <img class="nav__icon" src="https://toyota.com.ua/assets/img/i-mobmenu-1.svg" alt="" />Автомобили</a>
-            <div class="nav__nav-secondary nav-auto">
-               <div class="nav-auto__switchers"><div class="nav-auto__switcher"><a href="modelnyij-ryad" >Модельный ряд</a></div><div class="nav-auto__switcher"><a href="avtomobili-v-salone/" >Автомобили в салоне</a></div><div class="nav-auto__switcher"><a href="test-drajv" test-drive>Тест-драйв</a></div><div class="nav-auto__switcher"><a href="gibridni-avto" >Гибридные автомобили</a></div></div>
-               <div class="nav-auto__grid">
-                  <!--Модели в меню  avtoId 34 avtoSalo 36 --> 
-                  
-                   <!--ListAvtoTpl    -->
- <a href="camry" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/camryrrr.png" alt="" />
-  <p class="nav-auto__heading">Camry</p>
-</a> <!--ListAvtoTpl    -->
- <a href="camry-hybrid" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/camryrrr.png" alt="" />
-  <p class="nav-auto__heading">Camry Hybrid</p>
-</a> <!--ListAvtoTpl    -->
- <a href="lc-prado" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/models_new/c-list-lc-prado.png" alt="" />
-  <p class="nav-auto__heading">LC Prado</p>
-</a> <!--ListAvtoTpl    -->
- <a href="corolla" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/corolla-toyota.png" alt="" />
-  <p class="nav-auto__heading">Corolla</p>
-</a> <!--ListAvtoTpl    -->
- <a href="corolla-hybrid" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/corolla-toyota.png" alt="" />
-  <p class="nav-auto__heading">Corolla Hybrid</p>
-</a> <!--ListAvtoTpl    -->
- <a href="c-hr" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/trade-in/c-hr-site.png" alt="" />
-  <p class="nav-auto__heading">C-HR</p>
-</a> <!--ListAvtoTpl    -->
- <a href="chr-hybrid" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/trade-in/c-hr-hyb.png" alt="" />
-  <p class="nav-auto__heading">C-HR Hybrid</p>
-</a> <!--ListAvtoTpl    -->
- <a href="lc-200" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/models_new/c-list-lc-200.png" alt="" />
-  <p class="nav-auto__heading">LC 200</p>
-</a> <!--ListAvtoTpl    -->
- <a href="rav4-hybrid" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/models_new/rav4.png" alt="" />
-  <p class="nav-auto__heading">RAV4 Hybrid</p>
-</a> <!--ListAvtoTpl    -->
- <a href="rav4" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/models_new/rav4.png" alt="" />
-  <p class="nav-auto__heading">RAV4</p>
-</a> <!--ListAvtoTpl    -->
- <a href="highlander" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/models_new/highlander2020.png" alt="" />
-  <p class="nav-auto__heading">Highlander</p>
-</a> <!--ListAvtoTpl    -->
- <a href="hilux" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/hiluxnew2020.png" alt="" />
-  <p class="nav-auto__heading">Hilux</p>
-</a> <!--ListAvtoTpl    -->
- <a href="proaceverso" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/models_new/proace.png" alt="" />
-  <p class="nav-auto__heading">Proace Verso</p>
-</a> <!--ListAvtoTpl    -->
- <a href="proace" class="nav-auto__item">
-   <img class="nav-auto__img" src="https://toyota.com.ua/uploads/models_new/proace11.png" alt="" />
-  <p class="nav-auto__heading">Proace Van</p>
-</a>
-                  
-                  
-                  
-               </div>
-            </div>
-         </li>
-         
-         
-         <!--  &resources=`-1,-34,-35,-36,-37,-38` -->
-         <!-- &tplParentRow=`@INLINE <li class="nav__item"><a class="nav__item__link nav__item__link--has-child" href="" > </a></li> `  -->
-         <!--&cache=`1` &tplParentRow=`@INLINE <li class="nav__item"><a class="nav__item__link nav__item__link--has-child" > </a></li> ` -->
-         <li class="nav__item"><a class="nav__item__link" href="korporativnim-klientam" >Корпоративным клиентам</a></li><li class="nav__item"><a class="nav__item__link nav__item__link--has-child" href="allpage" > Акции и новости</a><ul class="nav__nav-secondary"><li class="nav__item"><a class="nav__item__link" href="news/" >Новости</a></li><li class="nav__item"><a class="nav__item__link" href="promos/" >Акции</a></li></ul></li><li class="nav__item"><a class="nav__item__link nav__item__link--has-child" href="toyota-servis/" > Сервис</a><ul class="nav__nav-secondary"><li class="nav__item"><a class="nav__item__link" href="toyota-servis/" >Toyota сервис</a></li><li class="nav__item"><a class="nav__item__link" href="remont-i-to/" >Ремонт и ТО</a></li><li class="nav__item"><a class="nav__item__link" href="servisnyie-kampanii" >Сервисные кампании</a></li></ul></li><li class="nav__item"><a class="nav__item__link nav__item__link--has-child" href="uslugi/" > Услуги</a><ul class="nav__nav-secondary"><li class="nav__item"><a class="nav__item__link" href="programma-loyalnosti/" >Программа лояльности</a></li><li class="nav__item"><a class="nav__item__link" href="credit" >Кредит</a></li><li class="nav__item"><a class="nav__item__link" href="leasing/" >Лизинг</a></li><li class="nav__item"><a class="nav__item__link" href="insurance/" >Страхование</a></li><li class="nav__item"><a class="nav__item__link" href="toyota-assistance/" >Toyota Assistance</a></li></ul></li><li class="nav__item"><a class="nav__item__link nav__item__link--has-child" href="o-nas/" > О нас</a><ul class="nav__nav-secondary"><li class="nav__item"><a class="nav__item__link" href="avtosalon-avtosamut" >Автосалон Автосамит</a></li><li class="nav__item"><a class="nav__item__link" href="sotrudniki/" >Сотрудники</a></li><li class="nav__item"><a class="nav__item__link" href="galereya/" >Галерея</a></li><li class="nav__item"><a class="nav__item__link" href="vacancies" >Вакансии</a></li><li class="nav__item"><a class="nav__item__link" href="contacts" >Контакты</a></li><li class="nav__item"><a class="nav__item__link" href="customer-service" >Клиентская служба</a></li><li class="nav__item"><a class="nav__item__link" href="https://www.toyota.ua/tme#/publish/my_toyota_login" target="_blank" rel="nofollow">Моя Toyota</a></li></ul></li><li class="nav__item"><a class="nav__item__link" href="zapchasti/" >Запчасти / аксессуары</a></li>
-      </ul>
-      <div class="nav-badge" style="padding:12px 10px;height: auto;"><a href="/ru/">
-          <img class="nav-badge__logo" src="https://toyota.com.ua/assets/img/badge-toyota-new.png" alt="" />
-          
-          </a>
-          </div>
-      <div class="menu">
-         <div class="menu__line"></div>
-         <div class="menu__line"></div>
-         <div class="menu__line"></div>
-         <div class="menu__text">меню</div>
-      </div>
-   </nav>
-
-    <!------------------------------------------------------------------------------------->--%>
-
         </header>
 
-        <div id="topmenu">
-
-
+        
 
     <!------------------------------------------------------------------------------------>
 
+<div id="topmenu">
     <nav>
       <ul class="nav">
          <div class="nav__header">
@@ -318,201 +193,6 @@
     </section>
   </div>
 
-        <!-------------------------------------------------------------------------------->
-
-
-
-        
-        
-<%--<%--      <div id="logo_botom"></div>
-        <div id="txtToyota">
-            <h1 class="ak_section_name">Автомобили Toyota</h1>
-        </div>
-
-            <div id="cart">
-
-    <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/camryrrr.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">CAMRY</h5>
-    <p class="card-text">Цена от 788 304 грн.</p>
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/camry" class="card-link">Посмотреть</a>
-  </div>
-</div>
-
-    <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/camryrrr.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">CAMRY HYBRID</h5>
-    <p class="card-text">Цена от 977 064 грн.</p>
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/camry-hybrid" class="card-link">Посмотреть</a>
-  </div>
-</div>
-
-   <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/models_new/c-list-lc-prado.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">LC PRADO</h5>
-    <p class="card-text">Цена от 1 157 112 грн.</p>
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/lc-prado" class="card-link">Посмотреть</a>
-  </div>
-</div>
-   
-    <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/corolla-toyota.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">COROLLA</h5>
-    <p class="card-text">Цена от 502 392 грн.</p>
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/corolla" class="card-link">Посмотреть</a>
-  </div>
-</div>
-
-     <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/corolla-toyota.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">COROLLA HYBRID</h5>
-    <p class="card-text">Цена от 719 400 грн.</p>
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/camry" class="card-link">Посмотреть</a>
-  </div>
-</div>
-
-
-   <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/trade-in/c-hr-site.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">C-HR</h5>
-    <p class="card-text">Цена от 725 345 грн.</p>
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/c-hr" class="card-link">Посмотреть</a>
-  </div>
-</div>
-
-    <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/trade-in/c-hr-hyb.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">C-HR HYBRID</h5>
-    <p class="card-text">Цена от 798 589 грн.</p>
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/chr-hybrid" class="card-link">Посмотреть</a>
-  </div>
-</div>
-
-   <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/models_new/c-list-lc-200.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">LC 200</h5>
-    <p class="card-text">Цена от 1 713 360 грн.</p>
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/lc-200" class="card-link">Посмоотреть</a>
-  </div>
-</div>
-   
-    <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/models_new/rav4.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">RAV4 HYBRID</h5>
-    <p class="card-text">Цена от 916 080 грн.</p>
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/rav4-hybrid" class="card-link">Посмотреть</a>
-  </div>
-</div>
-
-     <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/models_new/rav4.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">RAV4</h5>
-    <p class="card-text">Цена от 686 664 грн.</p>
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/rav4" class="card-link">Посмотреть</a>
-  </div>
-</div>
-
-     <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/models_new/highlander2020.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">HIGHLANDER</h5>
-    <p class="card-text">Цена от 1 349 040 грн.</p>
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/highlander" class="card-link">Посмотреть</a>
-  </div>
-</div>
-
-   <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/hiluxnew2020.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">HILUX</h5>
-    <p class="card-text">Цена от 1 097 712 грн.</p>
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/hilux" class="card-link">Посмотреть</a>
-  </div>
-</div>
-   
-    <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/models_new/proace.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">PROACE VERSO</h5>
-    <%--<p class="card-text">Цена от 788 304 грн.</p>--%>
-        <%-- %>
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/proaceverso" class="card-link">Посмотреть</a>
-  </div>
-</div>
-
-     <div class="card" style="width: 18rem;">
-  <img src="https://toyota.com.ua/uploads/models_new/proace11.png" class="card-img-top" />
-  <div class="card-body">
-    <h5 class="card-title">PROACE VAN</h5>
-    <%--<p class="card-text">Цена от 788 304 грн.</p>--%>
-        <%--
-  </div>
-  <div class="card-body">
-    <a href="https://toyota.com.ua/ru/test-drajv" class="card-link">Тест-драйв</a>
-    <a href="https://toyota.com.ua/ru/proace" class="card-link">Посмотреть</a>
-  </div>
-</div>
-
- </div>
-
-        <div id="logoToyota">
-
-        </div>
-        <div id="txtService">
-            <h1>Доступные сервисы</h1>
-            <p style="font-size:15px;font-style:italic;">Перечень услуг от нашего автосалона</p>
-        </div>
-  --%>
-        <!----------------------------------->
 
         <div class="services-list-wrapper">
       <div class="services-list">
@@ -535,10 +215,48 @@
                 <img class="services-list__icon" src="https://toyota.com.ua/assets/img/i-services-campaign.svg" />
                 <a class="services-list__name" href="servisnyie-kampanii">Сервисные кампании</a>
             </div>
-        
-
       </div>
     </div>
+
+        <div style="width:100%;height:50px; text-align:center; margin-top:50px;"><h1>Новости toyota</h1></div>
+        <div id="news">
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                    <img src="https://toyota.com.ua/assets/cache_image/uploads/fastUpload/1200x1200-specz-forma-rus_330x330_9e1.jpg" class="card-img" alt="..." />
+                    </div>
+                <div class="col-md-8">
+                 <div class="card-body">
+                    <h5 class="card-title">Специальные предложения на Toyota</h5>
+                    <p class="card-text">Специальные условия приобретения на ограниченный склад автомобилей, в случае заключения контракта в период с 03.04.20 до 24.04.20</p>
+                    <p class="card-text"><a href="https://toyota.com.ua/ru/speczialnyie-predlozheniya-na-toyota">Читать дальше</a></p>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                    <img src="https://toyota.com.ua/assets/cache_image/uploads/fastUpload/akczii-servis-rus330x3309e1_330x330_9e1.jpg" class="card-img" alt="..." />
+                    </div>
+                <div class="col-md-8">
+                 <div class="card-body">
+                    <h5 class="card-title">35% на чистку топливной системы и дополнительно 25% на свечи зажигания</h5>
+                    <p class="card-text">Воспользуйтесь весенними ценами на сервис Тойота - 35% на чистку топливной системы и дополнительно 25% на свечи зажигания.</p>
+                    <p class="card-text"><a href="https://toyota.com.ua/ru/vesnyani-znizhki-na-servis-toyota">Читать дальше</a></p>
+                </div>
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="btn_news" style="width:auto;height:8px; text-align:center;">
+            <button type="button" class="btn btn-outline-warning">Все новости Toyota</button>
+        </div>
 
     </form>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
