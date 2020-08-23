@@ -350,6 +350,63 @@
             </div>
         </div>
 
+
+
+        <div class="bg-cyan" style="background-color:rgb(211, 211, 211);">
+      <div class="footer-nav">
+        <ul class="footer-nav__list footer-nav__list--decorated">
+            <!--  36-->
+           <div><li class="footer-nav__item"><a class="footer-nav__link" href="camry" camry/>Camry</a></><li class="footer-nav__item"><a class="footer-nav__link" href="camry-hybrid" >Camry Hybrid</a></><li class="footer-nav__item"><a class="footer-nav__link" href="lc-prado" lc-prado/>LC Prado</a></><li class="footer-nav__item"><a class="footer-nav__link" href="corolla" corolla/>Corolla</a></><li class="footer-nav__item"><a class="footer-nav__link" href="corolla-hybrid" >Corolla Hybrid</a></><li class="footer-nav__item"><a class="footer-nav__link" href="c-hr" c-hr/>C-HR</a></><li class="footer-nav__item"><a class="footer-nav__link" href="chr-hybrid" >C-HR Hybrid</a></><li class="footer-nav__item"><a class="footer-nav__link" href="lc-200" >LC 200</a></><li class="footer-nav__item"><a class="footer-nav__link" href="rav4-hybrid" rav4-hybrid/>RAV4 Hybrid</a></><li class="footer-nav__item"><a class="footer-nav__link" href="rav4" rav4/>RAV4</a></><li class="footer-nav__item"><a class="footer-nav__link" href="highlander" highlander/>Highlander</a></><li class="footer-nav__item"><a class="footer-nav__link" href="hilux" hilux/>Hilux</a></><li class="footer-nav__item"><a class="footer-nav__link" href="proaceverso" >Proace Verso</a></><li class="footer-nav__item"><a class="footer-nav__link" href="proace" >Proace Van</a></></div>
+        </ul>
+
+        <ul class="footer-nav__list">
+          <!--34-->
+           <div><li class="footer-nav__item"><a class="footer-nav__link footer-nav__link--strong" href="modelnyij-ryad" >Модельный ряд</a></><li class="footer-nav__item"><a class="footer-nav__link" href="avtomobili-v-salone/" >Автомобили в салоне</a></><li class="footer-nav__item"><a class="footer-nav__link" href="test-drajv" test-drive>Тест-драйв</a></><li class="footer-nav__item"><a class="footer-nav__link" href="gibridni-avto" >Гибридные автомобили</a></></div>
+        <div><li class="footer-nav__item"><a class="footer-nav__link footer-nav__link--strong" href="promos/" >Акции</a></></div>
+        </ul>
+        
+        
+        
+        
+        
+        <ul class="footer-nav__list"><!--Сервис 15-->
+           <div><li class="footer-nav__item"><a class="footer-nav__link footer-nav__link--strong" href="toyota-servis/" >Toyota сервис</a></><li class="footer-nav__item"><a class="footer-nav__link" href="remont-i-to/" >Ремонт и ТО</a></><li class="footer-nav__item"><a class="footer-nav__link" href="servisnyie-kampanii" >Сервисные кампании</a></></div>
+        
+        <!--Услуги 17-->
+        <div><li class="footer-nav__item"><a class="footer-nav__link footer-nav__link--strong" href="programma-loyalnosti/" >Программа лояльности</a></><li class="footer-nav__item"><a class="footer-nav__link" href="credit" >Кредит</a></><li class="footer-nav__item"><a class="footer-nav__link" href="leasing/" >Лизинг</a></><li class="footer-nav__item"><a class="footer-nav__link" href="insurance/" >Страхование</a></><li class="footer-nav__item"><a class="footer-nav__link" href="toyota-assistance/" >Toyota Assistance</a></></div>
+        </ul>
+        <ul class="footer-nav__list">
+            <div><li class="footer-nav__item"><a class="footer-nav__link footer-nav__link--strong" href="o-nas/" >О нас</a></><li class="footer-nav__item"><a class="footer-nav__link footer-nav__link--strong" href="zapchasti/" >Запчасти / аксессуары</a></></div>
+          <div><li class="footer-nav__item"><a class="footer-nav__link" href="avtosalon-avtosamut" >Автосалон Автосамит</a></><li class="footer-nav__item"><a class="footer-nav__link" href="sotrudniki/" >Сотрудники</a></><li class="footer-nav__item"><a class="footer-nav__link" href="galereya/" >Галерея</a></><li class="footer-nav__item"><a class="footer-nav__link" href="vacancies" >Вакансии</a></><li class="footer-nav__item"><a class="footer-nav__link" href="contacts" >Контакты</a></><li class="footer-nav__item"><a class="footer-nav__link" href="customer-service" >Клиентская служба</a></><li class="footer-nav__item"><a class="footer-nav__link" href="https://www.toyota.ua/tme#/publish/my_toyota_login" target="_blank" rel="nofollow">Моя Toyota</a></></div>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+  <div class="feedback">
+    <div class="feedback__item feedback__item--small">
+      <div class="feedback__icon feedback__icon--testdrive"></div><span class="feedback__inner">Запись на тест-драйв</span>
+    </div>
+    <div class="feedback__item feedback__item--small" data-popup="js-popup-serv">
+      <div class="feedback__icon feedback__icon--service"></div><span class="feedback__inner">Запись на сервис</span>
+    </div>
+    <div class="feedback__item" style="display:flex;position:relative">
+      <div class="feedback__icon feedback__icon--call"></div>
+      <span class="feedback__inner">Позвонить</span>
+      
+      <a href="tel:0445375454" style="position:absolute;top:0;left:0;right:0;bottom:0;text-indent:-999px;overflow:hidden" class="binct-phone-number-1"></a>
+    </div>
+  </div>
+
+
+
     </form>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Подключаем Bootstrap JS -->    

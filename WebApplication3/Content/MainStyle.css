@@ -13660,6 +13660,11 @@ div#adres_bottom {
     font-size: 18px;
     color: white;
 }
+
 div#phone-bottom{
     color:white;
+}
+
+div{
+    display:block;
 }
