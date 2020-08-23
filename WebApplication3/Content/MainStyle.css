@@ -13577,8 +13577,34 @@ width:600px;
 height:auto;
 }
 
-
 div.card {
     display: flex;
     flex-flow: column wrap;
 }
+
+div#long_slide{
+    width:100%;
+    height:300px;
+}
+
+div#bottom-line{
+    width:100%;
+    height:200px;
+    background-color:rgb(213, 213, 215);
+}
+div#txt_bottom-line {
+    width:50%;
+    height:30%;
+    vertical-align:central;
+}
+
+.btn-send {
+    width:150px;
+    height:50px;
+    border-radius: 50px;
+    background-color: red;
+    color:green;
+}
+    .btn-send:hover {
+        background-color:rgb(90, 94, 142);
+    }

@@ -254,9 +254,67 @@
 
         </div>
 
+        <br/><br/>
+
         <div id="btn_news" style="width:auto;height:8px; text-align:center;">
             <button type="button" class="btn btn-outline-warning">Все новости Toyota</button>
         </div>
+
+
+        <br/><br/><br/><br/>
+        <div id="long_slide">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="https://toyota.com.ua/assets/cache_image/uploads/fastUpload/toyota-Land-Cruiser-v8-2015-exterior-tme-001-b-full_tcm-3046-565874_300x176_d16.jpg" class="d-block w-100" style="width:100%;height:300px;" alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="https://toyota.com.ua/assets/cache_image/uploads/fastUpload/toyota-rav4-2019-gallery-03-fulltcm-3046-1529364_300x176_d16.jpg" class="d-block w-100" style="width:100%;height:300px;" alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="https://toyota.com.ua/assets/cache_image/uploads/fastUpload/toyota-Yaris-2017-exterior-tme-005-a-full_tcm-3046-928082_300x176_d16.jpg" class="d-block w-100" style="width:100%;height:300px;" alt="..." />
+    </div>
+      <div class="carousel-item">
+      <img src="https://toyota.com.ua/assets/cache_image/uploads/fastUpload/toyota-Camry-2018-exterior-tme-002-a-full_tcm-3046-1225551_300x176_d16.jpg" class="d-block w-100" style="width:100%;height:300px;" alt="..." />
+    </div>
+      <div class="carousel-item">
+      <img src="https://toyota.com.ua/assets/cache_image/uploads/fastUpload/toyota-Camry-2018-exterior-tme-008-a-full_tcm-3046-1225529_300x176_d16.jpg" class="d-block w-100" style="width:100%;height:300px;" alt="..." />
+    </div>
+      <div class="carousel-item">
+      <img src="https://toyota.com.ua/assets/cache_image/uploads/fastUpload/toyota-chr-2016-exterior-tme-007-a-full_tcm-3046-808874_300x176_d16.jpg" class="d-block w-100" style="width:100%;height:300px;" alt="..." />
+    </div>
+      <div class="carousel-item">
+      <img src="https://toyota.com.ua/assets/cache_image/uploads/fastUpload/toyota-higlander-1600x900-001_tcm-3046-930433_300x176_d16.jpg" class="d-block w-100" style="width:100%;height:300px;" alt="..." />
+    </div>
+      <div class="carousel-item">
+      <img src="https://toyota.com.ua/assets/cache_image/uploads/fastUpload/toyota-Hilux-2015-exterior-tme-001-a-full_tcm-3046-466147_300x176_d16.jpg" class="d-block w-100" style="width:100%;height:300px;" alt="..." />
+    </div>
+      <div class="carousel-item">
+      <img src="https://toyota.com.ua/assets/cache_image/uploads/fastUpload/toyota-land-cruiser-2017-exterior-ua-011-a-full_tcm-3046-1133317_300x176_d16.jpg" class="d-block w-100" style="width:100%;height:300px;" alt="..." />
+    </div>
+  </div>
+
+</div>
+        </div>
+
+        <div id="bottom-line">
+                <div class="bg-cyan">
+      <div class="footer-feedback">
+        <div class="footer-feedback-text">
+          <p class="footer-feedback-text__item footer-feedback-text__item--strong">Хотите быть в курсе последних новостей Toyota? Подпишитесь на рассылку:</p>
+          <p class="footer-feedback-text__item">Только полезные новости, никакого спама.</p> 
+        </div>
+         <form class="footer-form ajax_form" action="#" method="post">
+        <fieldset class="textfield">
+            <input class="textfield__input field-typical" type="text" id="af_email" name="email" value="" onfocusout="outs(this)" />
+          <label class="textfield__placeholder" for="af_email">Email</label>
+          <span class="error_email"></span>
+        </fieldset>
+        <button class="btn-send">Отправить</button>
+    </form>
+      </div>
+        </div>
+            </div>
 
     </form>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

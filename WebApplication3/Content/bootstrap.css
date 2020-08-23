@@ -3162,14 +3162,18 @@ fieldset:disabled a.btn {
         }
 
 .btn-outline-warning {
-    color: #ffc107;
-    border-color: #ffc107;
+    height:60px;
+    color: whitesmoke;
+    /*border-color: #ffc107;*/
+    background-color:red;
+    border-radius:50px;
 }
 
     .btn-outline-warning:hover {
-        color: #212529;
-        background-color: #ffc107;
-        border-color: #ffc107;
+        color: whitesmoke;
+        /*background-color: #ffc107;*/
+        background-color: rgb(64, 79, 111);
+        border-color: red;
     }
 
     .btn-outline-warning:focus, .btn-outline-warning.focus {
