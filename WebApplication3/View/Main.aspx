@@ -310,11 +310,45 @@
           <label class="textfield__placeholder" for="af_email">Email</label>
           <span class="error_email"></span>
         </fieldset>
-        <button class="btn-send">Отправить</button>
+        <button type="button" class="btn-send">Отправить</button>
     </form>
       </div>
         </div>
             </div>
+
+        <div id="info">
+            <div id="container" style="display:inline;float:left;">
+                <div id="social_div">Мы в социальных сетях:</div>
+                <div class="social" > 
+          <a class="social__item social__item--tw" href="https://www.instagram.com/toyota_autosumit/" target="_blank" rel="nofollow"><img class="svg social__icon social__icon--tw" src="https://toyota.com.ua/assets/img/i-social-instagram.svg" alt=""></a>
+          <a class="social__item social__item--fb" href="https://www.facebook.com/ToyotaAutosumit" target="_blank" rel="nofollow"><img class="svg social__icon social__icon--fb" src="https://toyota.com.ua/assets/img/i-social-fb.svg" alt=""></a>
+          <a class="social__item social__item--yt" href="https://www.youtube.com/channel/UCAo39X_FXPv8ojI6c4WOtnw/videos" target="_blank" rel="nofollow"><img class="svg social__icon social__icon--yt" src="https://toyota.com.ua/assets/img/i-social-yt.svg" alt=""></a>
+          <a class="social__item social__item--yt" href="https://t.me/toyotaautosummit" target="_blank" rel="nofollow"><img class="svg social__icon social__icon--yt" src="https://toyota.com.ua/250px-telegram2019logo-svg.png" alt="" style="max-width:22px;"></a>
+          </div>
+            </div>
+            <div id="container_2">
+                <div id="adres_bottom" style="color:white;" >Наш адрес:</div>
+                <div class="footer-address" style="display:inline;float:left;"><img class="footer-address__icon" src="https://toyota.com.ua/assets/img/i-header-map-pointer.svg" alt="">
+              <span class="footer-address__text" style="color:white;">Киев, Харьковское шоссе, 179</span>
+          </div>
+            </div>
+            <div id="container_3">
+                 <div id="phone-bottom">
+                     <p>Телефоны:</p>
+                     <p>продажа</p>
+                     <p>(044) 592-95-37</p>
+                     <p>сервис</p>
+                     <p>(044) 221-59-23</p>
+                     <p>запчасти</p>
+                     <p>(044) 221-59-23</p>
+                     <p>корпоративным клиентам</p>
+                     <p>(044) 537-54-57</p>
+                </div>
+            </div>
+            <div id="container_4">
+                <div id="info-center" style="color:white;">© 2020 Тойота Центр Киев «Автосаммит» — официальный диллер TOYOTA </div>
+            </div>
+        </div>
 
     </form>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

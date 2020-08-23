@@ -13595,16 +13595,71 @@ div#bottom-line{
 div#txt_bottom-line {
     width:50%;
     height:30%;
-    vertical-align:central;
+    /*vertical-align:central;*/
 }
 
 .btn-send {
-    width:150px;
-    height:50px;
+    width: 150px;
+    height: 50px;
     border-radius: 50px;
     background-color: red;
-    color:green;
+    text-align: center;
+    color: black;
 }
     .btn-send:hover {
         background-color:rgb(90, 94, 142);
     }
+div#info{
+    width:auto;
+    height:400px;
+    background-color:rgb(35, 23, 26);
+}
+div#container {
+    width: 200px;
+    height: 300px;
+    display: inline;
+    float: left;
+    margin-top: 2%;
+    margin-left: 100px;
+}
+div#container_2 {
+    width: 300px;
+    height: 300px;
+    display: inline;
+    float: left;
+    margin-top: 2%;
+    margin-left: 100px;
+}
+div#container_3 {
+    width: 300px;
+    height: 300px;
+    display: inline;
+    float: left;
+    margin-top: 2%;
+    margin-left: 100px;
+}
+div#container_4 {
+    width: 300px;
+    height: 300px;
+    display: inline;
+    float: left;
+    margin-top: 2%;
+    margin-left: 100px;
+}
+div#social_div {
+    width: 230px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+div#adres_bottom {
+    width: 230px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+div#phone-bottom{
+    color:white;
+}
